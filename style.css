@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  /*.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #28a745;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  */
+  .container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #28a745;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .button.google {
+    background-color: #4285F4;
+  }
+  
+  .button.facebook {
+    background-color: #3b5998;
+  }
+  
+  .link {
+    display: block;
+    margin-top: 10px;
+    color: #28a745;
+    text-decoration: none;
+  }
+  
+  .input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input.code {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
